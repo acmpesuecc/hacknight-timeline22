@@ -47,6 +47,10 @@ body {
      flex-direction: column;
      justify-content: space-between;
    }
+   .conBtn{
+    margin: auto;
+   }
+   
    @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -57,7 +61,7 @@ body {
   }
    .hacknight-logo1{
     width: 40%;
-    height: auto;
+    height: 40%;
     margin: auto;
     animation: rotation 5s infinite linear;
    }
@@ -73,7 +77,8 @@ body {
      outline: none;
      border: none;
      border-radius: 5vw;
-     margin: 0 auto;
+     margin: 10px auto;
+
    }
 
    .hacknight-logo-button-container button:hover {
