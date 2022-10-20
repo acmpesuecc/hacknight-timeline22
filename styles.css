@@ -16,7 +16,7 @@ body {
 
    .hacknight-navbar-container a {
      text-decoration: none;
-     color: black;
+     color: whitesmoke;
      font-family: "Montserrat", Arial, Helvetica, sans-serif;
      font-size: calc(15px + 0.3vw);
      font-weight: bold;
@@ -27,7 +27,7 @@ body {
    .home-container {
      display: flex;
      justify-content: space-between;
-     background-color: #f2edde;
+     background-color: #170f1e;
      height: 90vh;
      padding: 5vh 0 10vh 0;
    }
