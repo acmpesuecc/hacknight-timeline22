@@ -43,11 +43,25 @@ body {
      flex-direction: column;
      justify-content: space-between;
    }
+   @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+   .hacknight-logo1{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    animation: rotation 5s infinite linear;
+   }
 
    .hacknight-logo-button-container button {
      font-family: "Montserrat", Arial, Helvetica, sans-serif;
      width: 15vw;
-     background-color: #e74c2b;
+     background: linear-gradient(90deg, rgb(255, 216, 77) 0%, rgb(64, 221, 255) 30%, rgb(124, 127, 255) 85%) 0% 0% / 200% 100%;
      color: white;
      font-size: calc(15px + 0.2vw);
      font-weight: bold;
@@ -73,6 +87,7 @@ body {
      display: flex;
      flex-direction: column;
      justify-content: center;
+     margin: 5%;
    }
 
    /* ################ text section stuff ##################*/
@@ -276,7 +291,7 @@ body {
 
      .home-container {
        position: relative;
-       background-color: #f2edde;
+       background-color: #170f1e;
        padding: 10% 0 10% 0;
      }
 
@@ -285,13 +300,16 @@ body {
        overflow: hidden;
 
      }
-
      .hacknight-logo1{
-      width: 20px;
+      width: 30%;
       height: auto;
+      margin:  10%  auto;
+      animation: rotation 5s infinite linear;
      }
+
+    
      .home-container {
-       height: 100vh;
+       height: 90vh;
      }
 
      .hacknight-logo-button-container {
