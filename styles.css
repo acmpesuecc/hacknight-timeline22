@@ -1,0 +1,340 @@
+body {
+     margin: 0;
+     padding: 0;
+     background-color: #170f1e;
+     transition : all 0.3s ease-out;
+   }
+
+   /* ################ Navbar stuff ##################*/
+
+   .hacknight-navbar-container {
+     display: flex;
+     justify-content: space-evenly;
+     margin: 0 auto 2vw auto;
+     width: 40vw;
+   }
+
+   .hacknight-navbar-container a {
+     text-decoration: none;
+     color: black;
+     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+     font-size: calc(15px + 0.3vw);
+     font-weight: bold;
+   }
+
+   /* ################ Homepage stuff ##################*/
+
+   .home-container {
+     display: flex;
+     justify-content: space-between;
+     background-color: #f2edde;
+     height: 90vh;
+     padding: 5vh 0 10vh 0;
+   }
+
+   .hacknight-home-left-right-img {
+     width: 12vw;
+   }
+
+   .hacknight-logo-button-container {
+     width: 60vw;
+     min-height: 500px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+   }
+
+   .hacknight-logo-button-container button {
+     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+     width: 15vw;
+     background-color: #e74c2b;
+     color: white;
+     font-size: calc(15px + 0.2vw);
+     font-weight: bold;
+     padding: 1vw 0;
+     outline: none;
+     border: none;
+     border-radius: 5vw;
+     margin: 0 auto;
+   }
+
+   .hacknight-logo-button-container button:hover {
+     cursor: pointer;
+   }
+
+   .center-text {
+     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+     color: #e74c2b;
+     text-align: center;
+     font-size: calc(15px + 0.1vw);
+   }
+
+   .center-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+   }
+
+   /* ################ text section stuff ##################*/
+
+   .text-section-1-container {
+     padding: 5vw 5vw;
+     background-color: #29332f;
+   }
+
+   .text-section-1-heading {
+     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+     font-size: 1.8rem;
+     font-weight: bold;
+     color: white;
+     text-align: center;
+   }
+
+   .text-section-1-text {
+     text-align: center;
+     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+     font-size: 1.2rem;
+     color: white;
+     margin-top: 2vw;
+   }
+
+   /* Section 2 */
+
+   .text-section-2-container {
+     padding: 5vw 5vw;
+     background-color: #f2edde;
+   }
+
+   .text-section-2-heading {
+     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+     font-size: 1.8rem;
+     font-weight: bold;
+     text-align: center;
+   }
+
+   .text-section-2-text {
+     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+     font-size: 1.2rem;
+     margin-top: 2vw;
+   }
+
+   /* ################ Timeline stuff ##################*/
+
+   .timeline-main-container {
+     padding: 5vw 0;
+     background-color: #29332f;
+   }
+
+   .timeline-heading {
+     margin: 0 0 5% 0;
+     text-align: center;
+     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+     font-size: 2.5rem;
+     color: white;
+   }
+
+   .my-timeline-circle {
+     width: 5px;
+     height: 5px;
+     padding: 0.5rem;
+     border-radius: 50%;
+     border: 0.3rem solid #b53a25;
+     background: #e96529;
+     color: white;
+     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+     font-size: 1.2rem;
+     font-weight: bold;
+     text-align: center;
+     margin: auto;
+   }
+
+   .timeline-container {
+     width: 89vw;
+     padding: 5vw;
+   }
+
+   .my-timeline-container {
+     margin: 0 50% 0 50%;
+   }
+
+   .my-timeline-line {
+     width: 6px;
+     height: 700px;
+     background-color: #f2edde;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+   }
+
+   .my-timeline-event-container {
+     position: relative;
+     right: 12px;
+   }
+
+   .my-timeline-text-container {
+     position: absolute;
+     top: -11px;
+     left: 60px;
+     height: 100px;
+     width: 400px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color: white;
+     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+     font-size: 1.2rem;
+   }
+
+   .my-timeline-text {
+     margin-block-start: 0px;
+     margin-block-end: 0.5em;
+   }
+
+   .my-timeline-left-text-container {
+     position: absolute;
+     text-align: right;
+     top: -28px;
+     left: -420px;
+     height: 100px;
+     width: 400px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color: white;
+     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+     font-size: 1.2rem;
+   }
+
+   .acm {
+     width: 15vw;
+   }
+
+   /* ################ Footer stuff ##################*/
+
+   .footer-container {
+     background-color: #f2edde;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 3% 0;
+   }
+
+   .row {
+     display: flex;
+     width: 150px;
+     justify-content: space-between;
+   }
+
+   .footer-headings {
+     color: #5e6a59;
+     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+     font-size: 1.2rem;
+     font-weight: bold;
+     margin: 0;
+   }
+
+   .footer-address-container {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     height: 100px;
+   }
+
+   .footer-follow-container {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     text-align: center;
+     height: 80px;
+   }
+
+   .footer {
+     display: flex;
+     flex-direction: column;
+   }
+
+   .footer-img {
+     width: 16vw;
+     height: 6vw;
+     margin-top: auto;
+     margin-bottom: auto;
+   }
+
+   /* ################ media queries##################*/
+
+   @media only screen and (max-width: 850px) {
+     .hacknight-navbar-container {
+       margin: 0 auto 0 auto;
+     }
+
+     .text-section-1-container {
+       padding: 20vw 5vw;
+     }
+
+     .hacknight-navbar-container {
+       width: 80vw;
+     }
+
+     .home-container {
+       position: relative;
+       background-color: #f2edde;
+       padding: 10% 0 10% 0;
+     }
+
+     .hacknight-logo {
+       width: 100vw;
+       overflow: hidden;
+     }
+
+     .home-container {
+       height: 100vh;
+     }
+
+     .hacknight-logo-button-container {
+       width: 100vw;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+     }
+
+     .hacknight-home-left-right-img {
+       display: none;
+     }
+
+     .text-section-1-heading {
+       font-size: 2rem;
+     }
+
+     .timeline-heading {
+       margin: 0 0 5% 0;
+       text-align: center;
+       font-family: "Montserrat", Arial, Helvetica, sans-serif;
+       font-size: 1.6rem;
+       color: white;
+     }
+
+     .my-timeline-line {
+       margin: 140px 0 140px 0;
+       height: 800px;
+     }
+
+     .my-timeline-text-container {
+       top: -130px;
+       height: 300px;
+       width: 130px;
+       font-size: 1.2rem;
+     }
+     .my-timeline-left-text-container {
+       top: -126px;
+       left: -150px;
+       height: 300px;
+       width: 130px;
+     }
+
+     .hacknight-logo-button-container button {
+       width: 50vw;
+     }
+
+     .footer-container {
+       flex-direction: column;
+     }
+   }
