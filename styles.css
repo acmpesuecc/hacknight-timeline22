@@ -16,7 +16,11 @@ body {
 
    .hacknight-navbar-container a {
      text-decoration: none;
-     color: whitesmoke;
+     background: #62D4E6;
+     background: linear-gradient(to right, #62D4E6 0%, #6AA9AD 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
      font-family: "Montserrat", Arial, Helvetica, sans-serif;
      font-size: calc(15px + 0.3vw);
      font-weight: bold;
@@ -47,7 +51,7 @@ body {
    .hacknight-logo-button-container button {
      font-family: "Montserrat", Arial, Helvetica, sans-serif;
      width: 15vw;
-     background-color: #e74c2b;
+     background: linear-gradient(90deg, rgba(103,211,227,1) 0%, rgba(156,204,184,1) 100%);
      color: white;
      font-size: calc(15px + 0.2vw);
      font-weight: bold;
@@ -64,7 +68,11 @@ body {
 
    .center-text {
      font-family: "Montserrat", Arial, Helvetica, sans-serif;
-     color: #e74c2b;
+     background: #62D4E6;
+     background: linear-gradient(to right, #62D4E6 0%, #6AA9AD 100%); 
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
      text-align: center;
      font-size: calc(15px + 0.1vw);
    }
@@ -276,7 +284,7 @@ body {
 
      .home-container {
        position: relative;
-       background-color: #f2edde;
+       background-color: #170f1e;
        padding: 10% 0 10% 0;
      }
 
