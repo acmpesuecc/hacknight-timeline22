@@ -2,71 +2,6 @@ html{
   scroll-behavior: smooth;
 }
 body {
-<<<<<<< HEAD
-     margin: 0;
-     padding: 0;
-     background-color: #170f1e;
-     transition : all 0.3s ease-out;
-   }
-
-   /* ################ Navbar stuff ##################*/
-
-   .hacknight-navbar-container {
-     display: flex;
-     justify-content: space-evenly;
-     margin: 0 auto 2vw auto;
-     width: 40vw;
-   }
-   .container {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-  }
-  
-  .child {
-    scroll-snap-align: start;
-  }
-
-   .hacknight-navbar-container a {
-     text-decoration: none;
-     background: #62D4E6;
-     background: linear-gradient(to right, #62D4E6 0%, #6AA9AD 100%);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-
-     font-family: "Montserrat", Arial, Helvetica, sans-serif;
-     font-size: calc(15px + 0.3vw);
-     font-weight: bold;
-   }
-
-   /* ################ Homepage stuff ##################*/
-
-   .home-container {
-     display: flex;
-     justify-content: space-between;
-     background-color: #170f1e;
-     height: 90vh;
-     padding: 5vh 0 10vh 0;
-   }
-
-   .hacknight-home-left-right-img {
-     width: 12vw;
-   }
-
-   .hacknight-logo-button-container {
-     width: 60vw;
-     min-height: 500px;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-   }
-   @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-=======
   margin: 0;
   padding: 0;
   background-color: #170f1e;
@@ -98,10 +33,12 @@ body {
 
 .home-container {
   display: flex;
-  justify-content: space-between;
-  background-color: #170f1e;
+  justify-content: space-evenly;
+  /* background-color: #170f1e; */
+  background: url(images/Grid.png);
   height: 90vh;
   padding: 5vh 0 10vh 0;
+
 }
 
 .hacknight-home-left-right-img {
@@ -118,7 +55,6 @@ body {
 @keyframes rotation {
   from {
     transform: rotate(0deg);
->>>>>>> 006d3ebe25f24dc138b7546d32452e72340b17f2
   }
   to {
     transform: rotate(359deg);
@@ -127,7 +63,7 @@ body {
 .hacknight-logo1 {
   width: 40%;
   height: 40%;
-  margin: auto;
+  margin: 15px auto;
   animation: rotation 5s infinite linear;
 }
 
@@ -149,6 +85,7 @@ body {
   border: none;
   border-radius: 5vw;
   margin: 10px auto;
+  display: inlinex;
 }
 
 .hacknight-logo-button-container button:hover {
