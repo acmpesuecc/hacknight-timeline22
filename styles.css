@@ -16,7 +16,11 @@ body {
 
    .hacknight-navbar-container a {
      text-decoration: none;
-     color: whitesmoke;
+     background: #62D4E6;
+     background: linear-gradient(to right, #62D4E6 0%, #6AA9AD 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
      font-family: "Montserrat", Arial, Helvetica, sans-serif;
      font-size: calc(15px + 0.3vw);
      font-weight: bold;
@@ -78,7 +82,11 @@ body {
 
    .center-text {
      font-family: "Montserrat", Arial, Helvetica, sans-serif;
-     color: #e74c2b;
+     background: #62D4E6;
+     background: linear-gradient(to right, #62D4E6 0%, #6AA9AD 100%); 
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
      text-align: center;
      font-size: calc(15px + 0.1vw);
    }
