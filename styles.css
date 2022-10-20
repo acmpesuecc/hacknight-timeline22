@@ -283,8 +283,13 @@ body {
      .hacknight-logo {
        width: 100vw;
        overflow: hidden;
+
      }
 
+     .hacknight-logo1{
+      width: 20px;
+      height: auto;
+     }
      .home-container {
        height: 100vh;
      }
