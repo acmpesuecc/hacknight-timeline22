@@ -51,6 +51,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 @keyframes rotation {
   from {
@@ -84,8 +85,8 @@ body {
   outline: none;
   border: none;
   border-radius: 5vw;
-  margin: 10px auto;
-  display: inlinex;
+  margin: 5px auto;
+  display: inline;
 }
 
 .hacknight-logo-button-container button:hover {
@@ -107,7 +108,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 5%;
+
 }
 
 /* ################ text section stuff ##################*/
